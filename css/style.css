@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Elms Sans", sans-serif;
   font-optical-sizing: auto;
@@ -24,7 +30,7 @@ a {
 
 .box {
   position: relative;
-  height: clamp(280px, 40vw, 500px);
+  height: clamp(400px, 40vw, 500px);
   overflow: hidden;
 }
 
@@ -41,5 +47,5 @@ a {
 
 .box2 {
   max-height: 700px;
-  overflow: scroll;
+  overflow: auto;
 }
